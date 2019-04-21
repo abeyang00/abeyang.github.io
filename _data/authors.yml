@@ -12,11 +12,11 @@ zzsza:
 
   # This photo will be used in the about section
   picture:
-    src:             /assets/img/logo.PNG
+    src:             /assets/img/bio-photo.PNG
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/logo.PNG
-      2x:            /assets/img/logo.PNG
+      1x:            /assets/img/bio-photo.PNG
+      2x:            /assets/img/bio-photo.PNG
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
