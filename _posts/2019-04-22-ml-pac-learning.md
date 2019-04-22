@@ -23,6 +23,6 @@ PAC learning을 설명하기 앞서 먼저 사용되는 notation들을 정의해
 PAC bound를 정의하려면 PAC learning에 사용되는 4가지 요소를 알아야한다.
 - $$m$$: training data의 샘플 수 
 - $$\varepsilon$$: misclassification error rate
-	- train error 와 true(test) error의 gap이라고도 불린다.  $$\mbox{error}_{true}(h) \leq \mbox{error}_{train}(h) + \varepsilon$$
+	- train error 와 true(test) error의 gap이라고도 불린다.  $$error_{true}(h) \leq error_{train}(h) + \varepsilon$$
 - $$|H|$$ hypothesis space
 
