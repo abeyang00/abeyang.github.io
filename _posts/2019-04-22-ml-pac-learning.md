@@ -20,9 +20,14 @@ PAC learning을 설명하기 앞서 먼저 사용되는 notation들을 정의해
 - S
 - H
 
-PAC bound를 정의하려면 PAC learning에 사용되는 4가지 요소를 알아야한다.
+Notation을 정리하였으니 이제 PAC bound를 정의하기 위해 사용되는 4가지 요소를 알아보고자 한다.
 - $$m$$: training data의 샘플 수 
 - $$\varepsilon$$: misclassification error rate
 	- train error 와 true(test) error의 gap이라고도 불린다.  $$error_{true}(h) \leq error_{train}(h) + \varepsilon$$
-- $$|H|$$ hypothesis space
+- $$|H|$$: hypothesis space의 complexity
+- $$$(1-\delta)$: confidence of the relation. 알고리즘이 $\varepsilon$$과 $$\delta$$를 사용하여 'probably correct'이기 위한 least 값
+
+이러한 4가지 요소를 사용하여 PAC bound는 다음과 같이 정의가 된다.
+$$Pr[error_{true}(h) \leq error_{train}(h) + \varepsilon] \leq ||H||\exp(-2m\varepsilon^2) $$
+
 
